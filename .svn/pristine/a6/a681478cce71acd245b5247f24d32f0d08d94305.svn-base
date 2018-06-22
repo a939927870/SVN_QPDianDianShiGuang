@@ -1,0 +1,31 @@
+﻿#0-不输入log 1-error 2-info 3-debug
+LogLevel = 3;
+
+DbHost = localhost
+
+DbUser = root
+
+
+DbPass = 123456
+
+DbName = centerdb_diandianshiguang
+
+DbPort = 3306
+
+#LoginGate和LogicManager访问的内网IP和Port
+InsideIp = 0.0.0.0
+InsidePort = 2085
+
+
+GMIp = 0.0.0.0
+GMPort = 9085
+
+WxAuth = 1
+
+LocalLogin = true
+#RandID=1
+
+#shareConfigURL = http://127.0.0.1:2800/operate/gmManage/getShareActiveSet?province=anhui_db&game=17002&type=shareconfig
+#shareCheckURL = http://127.0.0.1:9000/xlhy-activity/share/shareReward?serverCode=anhui_db&unionId=
+
+BaiMingDan=

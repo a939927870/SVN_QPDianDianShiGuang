@@ -1,0 +1,1 @@
+ALTER TABLE `log` ADD COLUMN `SubFlag`  int(11) NULL DEFAULT NULL AFTER `Flag`;

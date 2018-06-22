@@ -1,0 +1,22 @@
+﻿#ServerID 1-50 为斗地主服务器
+LogLevel = 3;
+
+ServerID = 1
+ServerName = 斗地主
+
+LogicManagerPort = 10085
+LogicManagerIp = 127.0.0.1
+
+InsideIp = 127.0.0.1
+InsidePort = 6005
+
+DBIp = 127.0.0.1
+DBPort = 7085
+
+#RemoteLogUrl = http://112.124.125.13:9090/loggersys/log/wirter
+#RemoteLogThreadStart = 1
+
+AddRobot = 1
+DebugModel = 1
+Free=0
+

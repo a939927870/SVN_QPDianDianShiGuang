@@ -1,0 +1,18 @@
+#ServerID 50-100 为长沙麻将服务器
+LogLevel = 3
+
+ServerID = 50
+ServerName = 长沙麻将
+
+LogicManagerIp = 127.0.0.1
+LogicManagerPort = 10085
+
+InsideIp = 127.0.0.1
+InsidePort = 6055
+
+DBIp = 127.0.0.1
+DBPort = 7085
+
+AddRobot = 1
+DebugModel = 1
+Free = 0

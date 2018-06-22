@@ -1,0 +1,50 @@
+[2016-02-07 09:27:25 314] listen ip:127.0.0.1,port:6001
+[2016-02-07 09:28:01 055] listen ip:127.0.0.1,port:6001
+[2016-02-07 09:28:01 058] UserNet::RecvMsgPack recv msgid=2147483646
+[2016-02-07 09:28:01 058] client login ip=123.57.41.73,port=5001,local_port=45557
+[2016-02-07 09:28:01 058] Work::ConnectCenter success 123.57.41.73:5001
+[2016-02-07 09:28:30 693] listen ip:127.0.0.1,port:6001
+[2016-02-07 09:29:11 411] UserNet::RecvMsgPack recv msgid=2147483646
+[2016-02-07 09:29:11 411] client login ip=123.57.41.73,port=5001,local_port=45558
+[2016-02-07 09:29:11 411] Work::ConnectCenter success 123.57.41.73:5001
+[2016-02-07 09:29:20 054] UserNet::RecvMsgPack recv msgid=2147483646
+[2016-02-07 09:29:20 054] client login ip=127.0.0.1,port=45559,local_port=6001
+[2016-02-07 09:29:20 054] UserNet::RecvMsgPack recv msgid=7000
+[2016-02-13 11:24:21 471] listen ip:127.0.0.1,port:6001
+[2016-02-13 18:00:21 431] listen ip:127.0.0.1,port:6001
+[2016-02-13 18:00:21 433] UserNet::RecvMsgPack recv msgid=2147483646
+[2016-02-13 18:00:21 433] client login ip=123.57.41.73,port=5001,local_port=56308
+[2016-02-13 18:00:21 433] Work::ConnectCenter success 123.57.41.73:5001
+[2016-02-13 18:00:21 445] UserNet::RecvMsgPack recv msgid=6003
+[2016-02-13 18:00:21 449] UserNet::RecvMsgPack recv msgid=6008
+[2016-02-13 18:00:21 450] UserNet::RecvMsgPack recv msgid=6010
+[2016-02-13 18:00:21 477] Work::HanderCenterUserInInfo 50
+[2016-02-13 18:01:31 483] UserNet::RecvMsgPack recv msgid=2147483646
+[2016-02-13 18:01:31 483] client login ip=127.0.0.1,port=56309,local_port=6001
+[2016-02-13 18:01:31 483] UserNet::RecvMsgPack recv msgid=7000
+[2016-02-13 18:02:24 833] UserNet::RecvMsgPack recv msgid=6004
+[2016-02-13 18:02:24 847] Work::HanderCenterUserLogin seed 66089358
+[2016-02-13 18:02:24 848] LMsgG2LUserMsg::RecvMsgPack {"m_msgId":11, "m_seed":66089358, "m_id":5}
+[2016-02-13 18:02:24 848] UserNet::RecvMsgPack recv msgid=8000
+[2016-02-13 18:02:29 868] Work::HanderUserLogin user reconncet 5:0
+[2016-02-13 18:02:35 675] LMsgG2LUserMsg::RecvMsgPack {"m_msgId":20, "m_flag":1, "m_secret":"", "m_gold":1, "m_info":-858993460}
+[2016-02-13 18:02:35 676] UserNet::RecvMsgPack recv msgid=8000
+[2016-02-13 18:02:37 052] User::HanderUserCreateDesk 1
+[2016-02-13 18:02:37 052] User::HanderUserCreateDesk desk not null 111112:1
+[2016-02-13 18:02:37 093] LMsgG2LUserMsg::RecvMsgPack {"m_msgId":36, "m_pos":-858993460}
+[2016-02-13 18:02:37 094] UserNet::RecvMsgPack recv msgid=8000
+[2016-02-13 18:02:37 096] Desk::HanderUserReady error DESK_PLAY 5
+[2016-02-13 18:02:39 838] LMsgG2LUserMsg::RecvMsgPack {"m_msgId":52, "m_flag":1, "m_color":0, "m_number":0}
+[2016-02-13 18:02:39 838] UserNet::RecvMsgPack recv msgid=8000
+[2016-02-16 17:26:23 477] listen ip:127.0.0.1,port:6001
+[2016-02-16 17:26:23 479] UserNet::RecvMsgPack recv msgid=2147483646
+[2016-02-16 17:26:23 479] client login ip=123.57.41.73,port=5001,local_port=61287
+[2016-02-16 17:26:23 479] Work::ConnectCenter success 123.57.41.73:5001
+[2016-02-16 17:26:23 522] UserNet::RecvMsgPack recv msgid=6003
+[2016-02-16 17:26:23 522] Work::HanderCenterUserInInfo 100
+[2016-02-16 17:26:23 523] UserNet::RecvMsgPack recv msgid=6008
+[2016-02-16 17:26:23 527] UserNet::RecvMsgPack recv msgid=6010
+[2016-02-16 17:26:51 509] UserNet::RecvMsgPack recv msgid=6004
+[2016-02-16 17:26:51 511] Work::HanderCenterUserLogin seed 34379711
+[2016-02-16 17:27:09 611] UserNet::RecvMsgPack recv msgid=6004
+[2016-02-16 17:27:09 612] Work::HanderCenterUserLogin seed 28583025

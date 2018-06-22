@@ -1,0 +1,46 @@
+
+
+
+MODULE_LIBS =   \
+          ./libs/HongZhongHandler.o\
+          ./libs/Config.o\
+          ./libs/UserManager.o\
+          ./libs/Card.o\
+          ./libs/ActiveManager.o\
+          ./libs/User.o\
+          ./libs/RobotManager.o\
+          ./libs/main.o\
+          ./libs/InsideNet.o\
+          ./libs/Desk.o\
+          ./libs/RoomVip.o\
+          ./libs/ShaoYangHandler.o\
+          ./libs/GameHandler.o\
+          ./libs/ChangShaHandler.o\
+          ./libs/Work.o\
+          ./libs/Robot.o\
+          ./libs/ChenZhouHandler.o\
+          ./libs/ZhuanZhuanHandler.o\
+          ./libs/ChangDeHandler.o\
+
+
+
+MODULE_SRC =     \
+          ./HongZhongHandler.o \
+          ./Config.o \
+          ./UserManager.o \
+          ./Card.o \
+          ./ActiveManager.o \
+          ./User.o \
+          ./RobotManager.o \
+          ./main.o \
+          ./InsideNet.o \
+          ./Desk.o \
+          ./RoomVip.o \
+          ./ShaoYangHandler.o \
+          ./GameHandler.o \
+          ./ChangShaHandler.o \
+          ./Work.o \
+          ./Robot.o \
+          ./ChenZhouHandler.o \
+          ./ZhuanZhuanHandler.o \
+          ./ChangDeHandler.o \

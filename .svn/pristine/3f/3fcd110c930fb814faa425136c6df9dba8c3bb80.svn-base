@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TeamServer Id="1">
+	<!--日志级别-->
+	<LogLevel>3</LogLevel>
+	<!--数据库IP-->
+	<DbHost>127.0.0.1</DbHost>
+	<!--数据库用户名-->
+	<DbUser>root</DbUser>
+	<!--数据库连接密码-->
+	<DbPassword>123456</DbPassword>
+	<!--数据库名-->
+	<DbName>centerdb_diandianshiguang</DbName>
+	<!--数据库端口-->
+	<DbPort>3306</DbPort>
+	<!--绑定IP-->
+	<OutsideIp>127.0.0.1</OutsideIp>
+	<!--绑定端口-->
+	<OutsidePort>10102</OutsidePort>
+	<!--LogicManager IP-->
+	<LogicManagerIp>127.0.0.1</LogicManagerIp>
+	<!--LogicManager port-->
+	<LogicManagerPort>10085</LogicManagerPort>
+	<!--监听http绑定地址-->
+	<HttpIp>0.0.0.0</HttpIp>
+	<!--监听http请求绑定端口-->
+	<HttpPort>9102</HttpPort>
+	<!--报警url-->
+	<AlterUrl>http://127.0.0.1:8090/gonghui/team/sendAlertSms</AlterUrl>
+	<!--玩家可加入俱乐部上限-->
+	<MemJoinTeamMaxCount>5</MemJoinTeamMaxCount>
+	<!--每日可加入玩家限制-->
+	<MemPerDayLimit>100</MemPerDayLimit>
+	<!--最大可创建俱乐部数量-->
+	<MaxCreateTeamCount>3000</MaxCreateTeamCount>
+	<!--俱乐部最大成员数量-->
+	<MaxTeamMemCount>200</MaxTeamMemCount>
+</TeamServer>
+

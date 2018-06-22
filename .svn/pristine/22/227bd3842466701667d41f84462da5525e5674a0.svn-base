@@ -1,0 +1,21 @@
+#0-不输入log 1-error 2-info 3-debug
+LogLevel = 3
+ServerID = 88888
+
+ServerIp   = 127.0.0.1
+ServerPort = 5605
+
+ThreadCount=8 #线程数
+ThreadPlayerNum=4 #玩家数
+PlayerBeginID=1 #开始的玩家id
+
+LoopLinkCount=20 #登陆每次连接的批量数
+
+OpenCustomSport=0 #开启比赛场 和通用房间互斥，优先选择比赛场
+OpenCustomRoom=1 #开启通用房间
+
+SportItemId=101 #比赛场项目id
+
+EveryTimeWaitSecond = 1
+
+m_flag=22

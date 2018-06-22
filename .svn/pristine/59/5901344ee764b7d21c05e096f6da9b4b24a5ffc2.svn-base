@@ -1,0 +1,17 @@
+﻿#0-不输入log 1-error 2-info 3-debug
+LogLevel = 3;
+
+#当前gate id 不能重复
+Id = 2
+
+#外网访问ip
+OutsideIp = 192.168.1.3
+
+OutsidePort = 8085
+
+OutsideIp2 = 192.168.1.3
+
+OutsidePort2 = 8185
+
+LogicManagerIp = 127.0.0.1
+LogicManagerPort = 10085

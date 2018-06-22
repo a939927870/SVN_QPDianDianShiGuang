@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- ServerID 100-150 为广东麻将服务器 -->
+<LogicServer id="100" name="广东麻将">
+	<!--日志级别-->
+	<LogLevel>3</LogLevel>
+	<!--绑定IP地址 监听Web请求-->
+	<InsideIp>127.0.0.1</InsideIp>
+	<!--与Web通信端口-->
+	<InsidePort >6105</InsidePort >
+	
+	<!--LogicManager Ip-->
+	<LogicManagerIp>127.0.0.1</LogicManagerIp>
+	<!--LogicManager Port-->
+	<LogicManagerPort>10085</LogicManagerPort>
+	
+	<!--LogicDb Ip-->
+	<LogicDBIp>127.0.0.1</LogicDBIp >
+	<!--LogicDb Port-->
+	<LogicDBPort>7085</LogicDBPort>
+	
+	<!--远程日志服务器Url
+	<RemoteLogUrl>http://112.124.125.13:9090/loggersys/log/wirter</RemoteLogUrl>
+	-->
+	<!--远程日志启动线程数量-->
+	<RemoteLogThreadStart>1</RemoteLogThreadStart>
+
+	<MaxCachedLogNum>10</MaxCachedLogNum>
+	<!--添加机器人 Ip-->
+	<AddRobot>1</AddRobot>
+	<!--调试模式-->
+	<DebugModel>1</DebugModel>
+</LogicServer>

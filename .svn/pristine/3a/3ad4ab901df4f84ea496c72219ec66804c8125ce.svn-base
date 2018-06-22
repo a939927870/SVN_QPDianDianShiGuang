@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2EE28D69-945A-4C2D-9997-F76F00043B24}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DZLogicServer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;BUILDING_LIBCURL;HTTP_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../include;../../include/mysql;../../include/msgpack;../LBase;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4099</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>LBase.lib;msgpackd.lib;libeay32.lib;ssleay32.lib;libcurld.lib;ws2_32.lib;winmm.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Debug;../../lib/msgpack;../../lib/boost;../../lib14/libcurl;../../lib14/openssl;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;BUILDING_LIBCURL;HTTP_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../include/mysql;../../include/msgpack;../../include;../LBase;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../lib/msgpack;../../lib/boost;../Release;../../lib14/openssl;../../lib14/libcurl;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>LBase.lib;msgpackd.lib;libeay32.lib;ssleay32.lib;libcurld.lib;ws2_32.lib;winmm.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActiveManager.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="DDZHandler_2Player.cpp" />
+    <ClCompile Include="DDZHandler_ArenaPVE.cpp" />
+    <ClCompile Include="DDZHandler_classical.cpp" />
+    <ClCompile Include="DDZHandler_SanLai.cpp" />
+    <ClCompile Include="DDZHandler_ShanxiWakeng.cpp" />
+    <ClCompile Include="DDZHandler_SiChuan.cpp" />
+    <ClCompile Include="DDZHandler_SiChuan3_PiZi.cpp" />
+    <ClCompile Include="DDZHandler_SiChuanPiZi.cpp" />
+    <ClCompile Include="Desk.cpp" />
+    <ClCompile Include="GameHandler.cpp" />
+    <ClCompile Include="gr_card.cpp" />
+    <ClCompile Include="gr_card_manager.cpp" />
+    <ClCompile Include="gr_card_manager_ArenaPVE.cpp" />
+    <ClCompile Include="gr_card_manager_sanlai.cpp" />
+    <ClCompile Include="gr_card_manager_shanxi_wakeng.cpp" />
+    <ClCompile Include="gr_card_manager_sichuan3_pizi.cpp" />
+    <ClCompile Include="gr_card_manager_sichuanpizi.cpp" />
+    <ClCompile Include="gr_card_wakeng.cpp" />
+    <ClCompile Include="InsideNet.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Robot.cpp" />
+    <ClCompile Include="RobotManager.cpp" />
+    <ClCompile Include="RoomVip.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserManager.cpp" />
+    <ClCompile Include="Work.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActiveManager.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="DDZHandler_2Player.h" />
+    <ClInclude Include="DDZHandler_ArenaPVE.h" />
+    <ClInclude Include="DDZHandler_classical.h" />
+    <ClInclude Include="DDZHandler_SanLai.h" />
+    <ClInclude Include="DDZHandler_ShanxiWakeng.h" />
+    <ClInclude Include="DDZHandler_SiChuan.h" />
+    <ClInclude Include="DDZHandler_SiChuan3_PiZi.h" />
+    <ClInclude Include="DDZHandler_SiChuanPiZi.h" />
+    <ClInclude Include="Desk.h" />
+    <ClInclude Include="GameHandler.h" />
+    <ClInclude Include="gr_card.h" />
+    <ClInclude Include="gr_card_manager.h" />
+    <ClInclude Include="gr_card_manager_ArenaPVE.h" />
+    <ClInclude Include="gr_card_manager_sanlai.h" />
+    <ClInclude Include="gr_card_manager_shanxi_wakeng.h" />
+    <ClInclude Include="gr_card_manager_sichuan3_pizi.h" />
+    <ClInclude Include="gr_card_manager_sichuanpizi.h" />
+    <ClInclude Include="gr_card_wakeng.h" />
+    <ClInclude Include="InsideNet.h" />
+    <ClInclude Include="Robot.h" />
+    <ClInclude Include="RobotManager.h" />
+    <ClInclude Include="RoomVip.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserManager.h" />
+    <ClInclude Include="Work.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

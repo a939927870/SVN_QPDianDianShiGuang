@@ -1,0 +1,12 @@
+﻿LogLevel = 3;
+
+CenterIp = 127.0.0.1
+
+CenterPort = 2085
+
+#CenterKey = 123
+
+#客户端访问的外网IP和Port
+OutsideIp = 0.0.0.0
+
+OutsidePort = 5605

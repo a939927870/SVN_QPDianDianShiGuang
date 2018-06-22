@@ -1,0 +1,17 @@
+﻿#0-不输入log 1-error 2-info 3-debug
+LogLevel = 3;
+
+DbHost = localhost
+
+DbUser = root
+
+DbPass = 123456
+
+DbName = logicdb_diandianshiguang
+
+DbPort = 3306
+
+
+LogicDBIp = 0.0.0.0
+
+LogicDBPort = 7085

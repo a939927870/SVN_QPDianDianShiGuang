@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ActiveManager.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Desk.cpp" />
+    <ClCompile Include="InsideNet.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Robot.cpp" />
+    <ClCompile Include="RobotManager.cpp" />
+    <ClCompile Include="RoomVip.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserManager.cpp" />
+    <ClCompile Include="Work.cpp" />
+    <ClCompile Include="NewHandCards.cpp">
+      <Filter>NewHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHandler.cpp" />
+    <ClCompile Include="GuangdongJihuHandler.cpp">
+      <Filter>GameHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="GuangDongTuiDaoHuHandler.cpp">
+      <Filter>GameHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="GuangDongOneHundredHandler.cpp">
+      <Filter>GameHandler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActiveManager.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Desk.h" />
+    <ClInclude Include="InsideNet.h" />
+    <ClInclude Include="Robot.h" />
+    <ClInclude Include="RobotManager.h" />
+    <ClInclude Include="RoomVip.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserManager.h" />
+    <ClInclude Include="Work.h" />
+    <ClInclude Include="NewHandCards.h">
+      <Filter>NewHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHandler.h" />
+    <ClInclude Include="GuangdongJihuHandler.h">
+      <Filter>GameHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="GuangDongTuiDaoHuHandler.h">
+      <Filter>GameHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="GuangDongOneHundredHandler.h">
+      <Filter>GameHandler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NewHandle">
+      <UniqueIdentifier>{a0c208b4-8906-484c-a848-089150796f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameHandler">
+      <UniqueIdentifier>{86588aa8-c124-4d82-8cc9-b035f1962a8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

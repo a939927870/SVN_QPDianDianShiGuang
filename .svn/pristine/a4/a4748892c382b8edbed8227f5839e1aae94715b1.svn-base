@@ -1,0 +1,17 @@
+﻿活动配置文件
+YaoJiConfigBigin	幺鸡分享活动只能配置一个时间段
+开始时间	结束时间
+20170127000000	20170203000000
+YaoJiConfigEnd
+DaTingConfigBigin	大厅分享朋友圈只能配置一个时间段
+开始时间	结束时间
+20170127000000	20170203000000
+DaTingConfigEnd
+GetCardCongfigBigin	大厅点击获取房卡
+开始时间	结束时间
+20170127000000	20170303000000
+GetCardCongfigEnd
+总开关	是否开启 
+free	1
+开始时间	结束时间
+20170511110000	20170519235959

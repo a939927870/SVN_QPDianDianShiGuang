@@ -1,0 +1,40 @@
+
+
+
+MODULE_LIBS =   \
+          ./libs/Config.o \
+          ./libs/GuangDongJiPingHuHandler.o \
+          ./libs/ActiveManager.o \
+          ./libs/UserManager.o \
+          ./libs/Card.o \
+          ./libs/User.o \
+          ./libs/RobotManager.o \
+          ./libs/InsideNet.o \
+          ./libs/main.o \
+          ./libs/Desk.o \
+          ./libs/RoomVip.o \
+          ./libs/GameHandler.o \
+          ./libs/GuangDongTuiDaoHuHandler.o \
+          ./libs/Work.o \
+          ./libs/Robot.o \
+		  ./libs/GuangDongOneHundredHandler.o \
+
+
+
+MODULE_SRC =     \
+          ./Config.o \
+          ./GuangDongJiPingHuHandler.o \
+          ./ActiveManager.o \
+          ./UserManager.o \
+          ./Card.o \
+          ./User.o \
+          ./RobotManager.o \
+          ./InsideNet.o \
+          ./main.o \
+          ./Desk.o \
+          ./RoomVip.o \
+          ./GameHandler.o \
+          ./GuangDongTuiDaoHuHandler.o \
+          ./Work.o \
+          ./Robot.o \
+		  ./GuangDongOneHundredHandler.o \

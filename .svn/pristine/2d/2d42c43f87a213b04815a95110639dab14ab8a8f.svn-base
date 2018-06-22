@@ -1,0 +1,39 @@
+﻿LogLevel = 3;
+
+ServerID = 15088
+ServerName = 点点时光
+
+CenterIp = 127.0.0.1
+CenterPort = 2085
+
+#CenterKey = 123
+
+InsideIp = 0.0.0.0
+
+InsidePort = 10085
+
+DBIp = 127.0.0.1
+
+DBPort = 7085
+
+Free = 1
+#RemoteLogUrl = 
+#RemoteLogThreadStart = 1
+
+#failover logics splitted by [,]
+FreePlayType = 18,22,23
+
+
+MallOpen = 0
+
+FailoverLogics = 
+
+DebugModel=1
+OpenShardGet1Card=1
+freeStartDay=0
+freeEndDay=0
+freeStartTime=0
+freeEndTime=0
+FailoverLogics=
+logic4GoldGame=
+FreeGameTypeList=
